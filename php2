@@ -1,0 +1,9 @@
+<?php 
+$currentDate = new DateTime();
+$compareDate = new DateTime('27.02.2024');
+
+if ($currentDate < $compareDate) {
+    echo 'меньше';
+} else {
+    echo 'пенис';
+}
